@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anime To-Do App</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section id="loginSection">
+    <h1>WELCOME - To  Your Productive Era </h1>
+    <h2>Turn Your Plans Into Progress</h2>
+    <input type="text" id="username" placeholder="Enter your name" />
+    <button id="loginBtn">Login</button>
+  </section>
+
+  <section id="genderSelection" style="display:none;">
+    <h2 id="greeting"></h2>
+    <img src="1con-192.png" id="dogfemaleImage" alt="Cute Animelove Dog" />
+    <form id="userForm">
+      <p>What vibe do you want?</p>
+      <label><input type="radio" name="gender" value="girl" required /> Girl</label>
+      <label><input type="radio" name="gender" value="boy" /> Boy</label>
+      <button type="submit">Continue</button>
+    </form>
+  </section>
+
+ <section id="todoSection" style="display: none;">
+  <div class="todo-container">
+    <h2>🌟📝 Wake Up. List Up. Level Up.</h2>
+    <img src="anime-dog.png" id="dogImage" alt="Cute Anime Dog" />
+    <input type="text" id="todoInput" placeholder="Add a task..." />
+    <input type="date" id="datePicker" />
+    <button id="addTodo">Add</button>
+    <ul id="todoList"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>

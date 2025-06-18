@@ -1,0 +1,218 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  background: #6d57d9;
+  transition: all 0.3s ease;
+}
+h1 {
+      color: #ff40c3; /* Pink Color */
+      font-size: 3rem;
+      animation: pop 1s ease-out forwards;
+      opacity: 2;
+      text-align: center;
+    }
+     @keyframes pop {
+      0% {
+        transform: scale(0.5);
+        opacity: 2;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+    h2 {
+      color: #16a9b9; /* Indigo Color */
+      font-size: 2rem;
+      animation: slideIn 1.6s ease-out forwards;
+      opacity: 3;
+      text-align: center;
+    }
+
+    @keyframes slideIn {
+      0% {
+        transform: translateY(50px);
+        opacity: 3;
+      }
+      100% {
+        transform: translateY(1);
+        opacity: 3;
+      }
+    }
+    #loginSection {
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  #username {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #loginBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #loginBtn:hover {
+    background-color: #303f9f;
+  }
+     
+  #genderSelection {
+    text-align: center;
+    padding: 20px 20px;
+  }
+
+  #dogfemaleImage {
+    width: 200px;
+    margin-bottom: 30px;
+  }
+
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    margin-top: 20px;
+  }
+
+  .form-content p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .form-content label {
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .form-content input[type="radio"] {
+    margin-right: 8px;
+  }
+
+  .form-content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .form-content button:hover {
+    background-color: #e91e63;
+  }
+  .todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .todo-container h2 {
+    font-size: 1.8rem;
+    color: #3f51b5;
+  }
+
+  #dogImage {
+    width: 2000px;
+    height: 150px;
+  }
+  #todoInput,
+  #datePicker {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #addTodo {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #addTodo:hover {
+    background-color: #e91e63;
+  }
+
+  #todoList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  #todoList li {
+    padding: 10px;
+    background: #f2f2f2;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+input, button {
+  padding: 11px;
+  margin: 5px;
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+  background: #ff66cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f0f0f0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.girl-theme {
+  background: #ffe6f0;
+  color: #cc0066;
+}
+
+.boy-theme {
+  background: #e6f2ff;
+  color: #004080;
+}
+
+#dogImage {
+  width: 120px;
+  display: none;
+}
